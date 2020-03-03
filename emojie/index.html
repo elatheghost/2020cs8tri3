@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Emoji</title>
+        <style>
+            body{
+               background-color: lightblue; 
+            }
+            #face{
+                background-color: #f5d845;
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                position: relative;
+
+            }
+            .eye{
+               
+            
+            }
+            .pupil{
+                background-color: white;
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                position: relative;
+            }
+            #leftEye{
+                background-color: black;
+                width: 70px;
+                height: 70px;
+                border-radius: 50%; 
+                position: absolute;
+                top: 45px;
+            
+
+
+               
+            }
+            #rightEye{
+                 background-color: black;
+                width: 70px;
+                height: 70px;
+                border-radius: 50%; 
+                position: absolute;
+                top: 48px;
+                right: 30px;
+
+            }
+            #mouth{
+                background: url('emojiMouth.png') no-repeat center center;
+                background-size:contain;
+                width: 70px;
+                height: 40px;
+                position: absolute;
+                bottom: 40px;
+                left: 50px;
+
+
+            }
+            #tongue{
+                background-color: #cf6d6d;
+                width: 30px;
+                height: 20px;
+                border-radius: 30%;
+                position: absolute;
+                bottom: 10px;
+                right: 17px;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div id='face'>
+            <div id='leftEye' class='eye'>
+                <div class='pupil'></div>
+            </div>
+            <div id='rightEye' class='eye'>
+                <div class='pupil'></div>
+            </div>
+            <div id='mouth'>
+                <div id='tongue'></div>
+            </div>
+        </div>
+    </body>
+</html>
+
